@@ -1,0 +1,8 @@
+.ctf-cat-toggle {display: block; float: left; height: 14px; margin-top: 5px; width: 15px;}
+.category-checklist .ctf-cat-toggle {margin-top: 2px; margin-right: 4px;} /* Quick View */
+.categorychecklist .ctf-cat-toggle {margin-top: 5px; margin-right: 4px; text-decoration: none;} /* Full View */
+.ctf-expand:before { font: normal 12px 'dashicons';content: "\f346"; } 
+.ctf-contract:before { font: normal 12px 'dashicons';content: "\f342"; } 
+.category-checklist li, .categorychecklist li {clear: both;} /* Clears Float in Quick View & Full View */
+ul.categorychecklist li {line-height: 20px} /* Modifies Wordpress Default for Full View */
+#categoryfilter { margin-top: 5px; }
